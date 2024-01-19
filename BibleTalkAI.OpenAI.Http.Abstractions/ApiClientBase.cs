@@ -63,7 +63,6 @@ public abstract class ApiClientBase
         {
             var error = await response.Content.ReadAsStringAsync();
             throw new Exception(error);
-            return default;
         }
 
         return await response.Content.ReadFromJsonAsync<TResponse>(
