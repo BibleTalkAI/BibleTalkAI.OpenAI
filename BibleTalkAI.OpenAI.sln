@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Tools.Models", "BibleTalkAI.OpenAI.Tools.Models\BibleTalkAI.OpenAI.Tools.Models.csproj", "{CC110B14-5765-4870-8BA1-648C149D8039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Http.Abstractions", "BibleTalkAI.OpenAI.Http.Abstractions\BibleTalkAI.OpenAI.Http.Abstractions.csproj", "{A335B5BD-5C0D-4F70-9A12-0796783BA4A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Assistants.Models", "BibleTalkAI.OpenAI.Assistants.Models\BibleTalkAI.OpenAI.Assistants.Models.csproj", "{02D0B107-1DAB-4C73-881E-CBC3ECAE65B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Assistants.Json", "BibleTalkAI.OpenAI.Assistants.Json\BibleTalkAI.OpenAI.Assistants.Json.csproj", "{15593BA1-75A7-4B9E-A814-7759B8C7A814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Assistants.Http", "BibleTalkAI.OpenAI.Assistants.Http\BibleTalkAI.OpenAI.Assistants.Http.csproj", "{68D86B1B-CCB8-498B-897D-8A2B98D0D0E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Assistants", "BibleTalkAI.OpenAI.Assistants\BibleTalkAI.OpenAI.Assistants.csproj", "{1A9495B8-CCC6-440F-B2FB-D3A4F106587D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Threads.Models", "BibleTalkAI.OpenAI.Threads.Models\BibleTalkAI.OpenAI.Threads.Models.csproj", "{F29907E7-B18F-4CDC-B44A-6E97CCBED747}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Threads.Json", "BibleTalkAI.OpenAI.Threads.Json\BibleTalkAI.OpenAI.Threads.Json.csproj", "{6ED74FB0-C424-4F35-AF25-50BC06B1D3F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Threads.Http", "BibleTalkAI.OpenAI.Threads.Http\BibleTalkAI.OpenAI.Threads.Http.csproj", "{4C45F955-271B-4D13-A485-8F0CFC0E9688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.AssistantsThreads", "BibleTalkAI.OpenAI.AssistantsThreads\BibleTalkAI.OpenAI.AssistantsThreads.csproj", "{4FC409D9-4D6F-4348-A61F-44663F787241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8821C369-9CEF-4B1B-B38C-0F94265DB13A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{17ABFF72-436F-421D-B5A0-5B1C3AC431AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BDB91BF9-4988-4EE3-B1BC-8B6E55803836}"
+	ProjectSection(SolutionItems) = preProject
+		publish.yml = publish.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Threads", "BibleTalkAI.OpenAI.Threads\BibleTalkAI.OpenAI.Threads.csproj", "{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC110B14-5765-4870-8BA1-648C149D8039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC110B14-5765-4870-8BA1-648C149D8039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC110B14-5765-4870-8BA1-648C149D8039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC110B14-5765-4870-8BA1-648C149D8039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A335B5BD-5C0D-4F70-9A12-0796783BA4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A335B5BD-5C0D-4F70-9A12-0796783BA4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A335B5BD-5C0D-4F70-9A12-0796783BA4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A335B5BD-5C0D-4F70-9A12-0796783BA4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D0B107-1DAB-4C73-881E-CBC3ECAE65B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D0B107-1DAB-4C73-881E-CBC3ECAE65B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D0B107-1DAB-4C73-881E-CBC3ECAE65B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D0B107-1DAB-4C73-881E-CBC3ECAE65B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15593BA1-75A7-4B9E-A814-7759B8C7A814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15593BA1-75A7-4B9E-A814-7759B8C7A814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15593BA1-75A7-4B9E-A814-7759B8C7A814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15593BA1-75A7-4B9E-A814-7759B8C7A814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D86B1B-CCB8-498B-897D-8A2B98D0D0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D86B1B-CCB8-498B-897D-8A2B98D0D0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D86B1B-CCB8-498B-897D-8A2B98D0D0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D86B1B-CCB8-498B-897D-8A2B98D0D0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9495B8-CCC6-440F-B2FB-D3A4F106587D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9495B8-CCC6-440F-B2FB-D3A4F106587D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9495B8-CCC6-440F-B2FB-D3A4F106587D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9495B8-CCC6-440F-B2FB-D3A4F106587D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29907E7-B18F-4CDC-B44A-6E97CCBED747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29907E7-B18F-4CDC-B44A-6E97CCBED747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29907E7-B18F-4CDC-B44A-6E97CCBED747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29907E7-B18F-4CDC-B44A-6E97CCBED747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED74FB0-C424-4F35-AF25-50BC06B1D3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED74FB0-C424-4F35-AF25-50BC06B1D3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED74FB0-C424-4F35-AF25-50BC06B1D3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED74FB0-C424-4F35-AF25-50BC06B1D3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C45F955-271B-4D13-A485-8F0CFC0E9688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C45F955-271B-4D13-A485-8F0CFC0E9688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C45F955-271B-4D13-A485-8F0CFC0E9688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C45F955-271B-4D13-A485-8F0CFC0E9688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC409D9-4D6F-4348-A61F-44663F787241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC409D9-4D6F-4348-A61F-44663F787241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC409D9-4D6F-4348-A61F-44663F787241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC409D9-4D6F-4348-A61F-44663F787241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDB91BF9-4988-4EE3-B1BC-8B6E55803836} = {17ABFF72-436F-421D-B5A0-5B1C3AC431AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B613E5CF-1E9C-4EFE-8348-5E68E7231D72}
+	EndGlobalSection
+EndGlobal
