@@ -4,6 +4,7 @@
     <Authors>cdorst</Authors>
     <Company>BibleTalkAI</Company>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
