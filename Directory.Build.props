@@ -3,9 +3,12 @@
   <PropertyGroup>
     <Authors>cdorst</Authors>
     <Company>BibleTalkAI</Company>
+	<Copyright>© 2024 Bible Talk AI. All rights reserved.</Copyright>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl>https://bibletalkai.com/icon.png</PackageIconUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>    
@@ -18,6 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<None Include="..\icon.png" Pack="true" PackagePath="\"/>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
   </ItemGroup>
 
