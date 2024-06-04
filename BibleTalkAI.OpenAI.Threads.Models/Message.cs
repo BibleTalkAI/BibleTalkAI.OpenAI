@@ -11,5 +11,6 @@ public struct Message
     public string? AssistantId { get; set; }
     public string? RunId { get; set; }
     public ImmutableArray<MessageContent>? Content { get; set; }
+    public ImmutableArray<Attachment>? Attachments { get; set; }
     public ImmutableDictionary<string, string?>? Metadata { get; set; }
 }

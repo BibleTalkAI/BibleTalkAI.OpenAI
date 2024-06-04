@@ -46,17 +46,6 @@ public class ThreadApiClient(
         ListParameters query)
         => await Get<MessageList>(query.ToUri(id, "/messages"));
 
-    /// <summary>get https://api.openai.com/v1/threads/{thread_id}/messages/{message_id}/files/{file_id}</summary>
-    public async ValueTask<MessageFile?> RetrieveMessageFile(string id, string messageId, string fileId)
-        => await Get<MessageFile>(UriFileId(id, messageId, fileId));
-
-    /// <summary>get https://api.openai.com/v1/threads/{thread_id}/messages</summary>
-    public async ValueTask<MessageFileList> ListMessageFiles(
-        string id,
-        string messageId,
-        ListParameters query)
-        => await Get<MessageFileList>(query.ToUri(id, "/messages/", messageId, "/files"));
-
     /// <summary>post https://api.openai.com/v1/threads/{thread_id}/runs</summary>
     public async ValueTask<Run?> CreateRun(string id, RunCreate request)
         => await Post<RunCreate, Run?>(UriRuns(id), request);

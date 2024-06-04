@@ -15,3 +15,9 @@
 # BibleTalkAI.OpenAI
 
 OpenAI Assistants/Threads libraries
+
+## V2 Migration
+
+This library has been migrated to the `v2` version of the OpenAI Assistants API beta using the migration guide provided by OpenAI at https://platform.openai.com/docs/assistants/migration
+
+> Both versions of the beta continue to be accessible via the API today, but we recommend migrating to the newest version of our APIs as soon as feasible. We will deprecate `v1` of the beta by the end of 2024.

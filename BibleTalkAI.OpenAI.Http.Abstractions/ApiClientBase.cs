@@ -16,7 +16,7 @@ public abstract class ApiClientBase
         httpClient.BaseAddress = baseAddress;
 
         httpClient.DefaultRequestHeaders.Authorization = new("Bearer", apiKey);
-        httpClient.DefaultRequestHeaders.Add("OpenAI-Beta", "assistants=v1");
+        httpClient.DefaultRequestHeaders.Add("OpenAI-Beta", "assistants=v2");
     }
 
     protected async ValueTask Delete(Uri endpoint)

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
 	<Description>JSON serialization types for BibleTalkAI.OpenAI.Assistants.Models types.</Description>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
