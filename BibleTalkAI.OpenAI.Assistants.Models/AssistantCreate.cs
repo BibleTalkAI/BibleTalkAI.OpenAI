@@ -10,5 +10,6 @@ public struct AssistantCreate
     public string? Description { get; set; }
     public string? Instructions { get; set; }
     public ImmutableArray<Tool>? Tools { get; set; }
+    public ToolResource? ToolResources { get; set; }
     public ImmutableDictionary<string, string?>? Metadata { get; set; }
 }

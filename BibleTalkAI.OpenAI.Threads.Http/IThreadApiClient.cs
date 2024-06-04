@@ -10,7 +10,6 @@ public interface IThreadApiClient
     ValueTask<Run?> CreateRun(string id, RunCreate request);
     ValueTask<Run?> CreateThreadAndRun(ThreadAndRunCreate request);
     ValueTask DeleteThread(string id);
-    ValueTask<MessageFileList> ListMessageFiles(string id, string messageId, ListParameters query);
     ValueTask<MessageList> ListMessages(string id, ListParameters query);
     ValueTask<RunList> ListRuns(string id, ListParameters query);
     ValueTask<RunStepList> ListRunSteps(string id, string runId, ListParameters query);
@@ -18,7 +17,6 @@ public interface IThreadApiClient
     ValueTask<Run?> ModifyRun(string id, string runId, RunModify request);
     ValueTask<Models.Thread?> ModifyThread(string id, ThreadModify request);
     ValueTask<Message?> RetrieveMessage(string id, string messageId);
-    ValueTask<MessageFile?> RetrieveMessageFile(string id, string messageId, string fileId);
     ValueTask<Run?> RetrieveRun(string id, string runId);
     ValueTask<RunStep?> RetrieveRunStep(string id, string runId, string stepId);
     ValueTask<Models.Thread?> RetrieveThread(string id);

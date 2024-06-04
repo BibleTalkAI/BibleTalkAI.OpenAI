@@ -21,6 +21,12 @@ namespace BibleTalkAI.OpenAI.Assistants.Json;
 [JsonSerializable(typeof(Assistant?))]
 [JsonSerializable(typeof(Tool))]
 [JsonSerializable(typeof(Tool?))]
+[JsonSerializable(typeof(ToolResource))]
+[JsonSerializable(typeof(ToolResource?))]
+[JsonSerializable(typeof(FileSearch))]
+[JsonSerializable(typeof(FileSearch?))]
+[JsonSerializable(typeof(CodeInterpreter))]
+[JsonSerializable(typeof(CodeInterpreter?))]
 [JsonSerializable(typeof(Function))]
 [JsonSerializable(typeof(Function?))]
 [JsonSerializable(typeof(FunctionParameter))]
@@ -31,17 +37,10 @@ namespace BibleTalkAI.OpenAI.Assistants.Json;
 [JsonSerializable(typeof(AssistantModify?))]
 [JsonSerializable(typeof(AssistantList))]
 [JsonSerializable(typeof(AssistantList?))]
-[JsonSerializable(typeof(AssistantFile))]
-[JsonSerializable(typeof(AssistantFile?))]
-[JsonSerializable(typeof(AssistantFileCreate))]
-[JsonSerializable(typeof(AssistantFileCreate?))]
-[JsonSerializable(typeof(AssistantFileList))]
-[JsonSerializable(typeof(AssistantFileList?))]
 // collections
 [JsonSerializable(typeof(ImmutableArray<Tool>))]
 [JsonSerializable(typeof(ImmutableArray<FunctionParameter>))]
 [JsonSerializable(typeof(ImmutableArray<Assistant>))]
-[JsonSerializable(typeof(ImmutableArray<AssistantFile>))]
 internal partial class GeneratedJsonSerializerContext
     : JsonSerializerContext
 {
