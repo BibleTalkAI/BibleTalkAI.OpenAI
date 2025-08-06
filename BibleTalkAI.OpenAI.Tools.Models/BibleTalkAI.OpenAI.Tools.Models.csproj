@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageVersion>2.0.1</PackageVersion>
+    <PackageVersion>3.0.0</PackageVersion>
 	<Description>Model type definitions for tools and functions resources used for requests to the OpenAI Assistants and Threads API.</Description>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

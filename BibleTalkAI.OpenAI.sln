@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.OpenAI.Threads", "BibleTalkAI.OpenAI.Threads\BibleTalkAI.OpenAI.Threads.csproj", "{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleTalkAI.OpenAI.Tests", "BibleTalkAI.OpenAI.Tests\BibleTalkAI.OpenAI.Tests.csproj", "{A9ADB2DF-B312-4F97-B809-BCEFE340B50E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6CC44E4-70FA-4CAB-9712-AD582E68BD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ADB2DF-B312-4F97-B809-BCEFE340B50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ADB2DF-B312-4F97-B809-BCEFE340B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ADB2DF-B312-4F97-B809-BCEFE340B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ADB2DF-B312-4F97-B809-BCEFE340B50E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
