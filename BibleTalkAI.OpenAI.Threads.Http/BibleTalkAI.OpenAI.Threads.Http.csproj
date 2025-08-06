@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageVersion>2.0.1</PackageVersion>
+    <PackageVersion>3.0.0</PackageVersion>
 	<Description>HTTP clients for the OpenAI Threads API.</Description>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
