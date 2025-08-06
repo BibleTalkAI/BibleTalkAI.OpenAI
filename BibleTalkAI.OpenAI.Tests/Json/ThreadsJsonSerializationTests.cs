@@ -41,7 +41,7 @@ public class ThreadsJsonSerializationTests
         
         deserialized.Metadata.Should().NotBeNull();
         deserialized.Metadata!.Should().HaveCount(2);
-        deserialized.Metadata["user_id"].Should().Be("user_123");
+        deserialized.Metadata!["user_id"].Should().Be("user_123");
         deserialized.Metadata.Should().ContainKey("session_type");
     }
 
@@ -125,7 +125,7 @@ public class ThreadsJsonSerializationTests
         deserialized.Metadata!.Should().HaveCount(2);
         deserialized.Metadata.Should().ContainKey("modified_at");
         deserialized.Metadata.Should().ContainKey("version");
-        deserialized.Metadata["version"].Should().Be("2.0");
+        deserialized.Metadata!["version"].Should().Be("2.0");
     }
 
     [Fact]

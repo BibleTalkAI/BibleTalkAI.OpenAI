@@ -46,7 +46,7 @@ public class AssistantsJsonSerializationTests
         
         deserialized.Metadata.Should().NotBeNull();
         deserialized.Metadata!.Should().HaveCount(2);
-        deserialized.Metadata["test"].Should().Be("value");
+        deserialized.Metadata!["test"].Should().Be("value");
         deserialized.Metadata.Should().ContainKey("null_value");
     }
 
