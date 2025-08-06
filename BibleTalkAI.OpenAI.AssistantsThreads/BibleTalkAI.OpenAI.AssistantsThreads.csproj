@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageVersion>2.0.2</PackageVersion>
 	<Description>Service collection extensions for adding HTTP client services for the OpenAI Assistants and Threads APIs.</Description>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

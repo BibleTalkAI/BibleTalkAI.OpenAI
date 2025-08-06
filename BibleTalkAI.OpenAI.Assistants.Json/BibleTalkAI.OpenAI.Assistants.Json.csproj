@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageVersion>2.0.2</PackageVersion>
 	<Description>JSON serialization types for BibleTalkAI.OpenAI.Assistants.Models types.</Description>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
